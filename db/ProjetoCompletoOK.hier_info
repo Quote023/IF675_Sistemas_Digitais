@@ -1,0 +1,120 @@
+|Somador4BitsOK
+s[0] <= Full-Adder:inst.SOMA
+s[1] <= Full-Adder:inst6.SOMA
+s[2] <= Full-Adder:inst7.SOMA
+s[3] <= Full-Adder:inst8.SOMA
+s[4] <= Full-Adder:inst8.CARRY
+A[0] => Full-Adder:inst.A
+A[1] => Full-Adder:inst6.A
+A[2] => Full-Adder:inst7.A
+A[3] => Full-Adder:inst8.A
+B[0] => Full-Adder:inst.B
+B[1] => Full-Adder:inst6.B
+B[2] => Full-Adder:inst7.B
+B[3] => Full-Adder:inst8.B
+
+
+|Somador4BitsOK|Full-Adder:inst
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst7
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst7|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst7|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst6
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst6|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst6|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst8
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst8|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Somador4BitsOK|Full-Adder:inst8|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
