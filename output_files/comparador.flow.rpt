@@ -1,6 +1,6 @@
 Flow report for comparador
-Fri Feb 10 11:44:38 2023
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Fri Feb 10 11:53:39 2023
+Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Full Version
 
 
 ---------------------
@@ -21,28 +21,28 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Feb 10 11:44:38 2023       ;
-; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Flow Status                        ; Successful - Fri Feb 10 11:53:39 2023       ;
+; Quartus II 64-Bit Version          ; 14.0.0 Build 200 06/17/2014 SJ Full Version ;
 ; Revision Name                      ; comparador                                  ;
 ; Top-level Entity Name              ; ProjetoCompletoOK                           ;
 ; Family                             ; Cyclone IV E                                ;
@@ -52,7 +52,7 @@ https://fpgasoftware.intel.com/eula.
 ;     Total combinational functions  ; 50 / 6,272 ( < 1 % )                        ;
 ;     Dedicated logic registers      ; 0 / 6,272 ( 0 % )                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 26 / 92 ( 28 % )                            ;
+; Total pins                         ; 27 / 92 ( 29 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
@@ -65,61 +65,61 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/10/2023 11:43:58 ;
+; Start date & time ; 02/10/2023 11:53:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; comparador          ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                     ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name       ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 123598315190897.167604023808520        ; --            ; --                ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --                ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --                ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                     ; <None>        ; --                ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --                ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP              ; 125                                    ; --            ; --                ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --                ; --                                ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --                ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; ProjetoCompletoOK ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; ProjetoCompletoOK ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; ProjetoCompletoOK ; Top                               ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                ; --                                ;
-; TOP_LEVEL_ENTITY                    ; ProjetoCompletoOK                      ; comparador    ; --                ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+-----------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                             ;
++-------------------------------------+--------------------------------+---------------+-------------------+-----------------------------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name       ; Section Id                        ;
++-------------------------------------+--------------------------------+---------------+-------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 13557697413796.167604078806676 ; --            ; --                ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                            ; --            ; --                ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                            ; --            ; --                ; eda_board_design_symbol           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                            ; --            ; --                ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                            ; --            ; --                ; eda_board_design_boundary_scan    ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --                ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)             ; <None>        ; --                ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                           ; --            ; --                ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 125                            ; --            ; --                ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; -40                            ; --            ; --                ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                           ; --            ; --                ; --                                ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; ProjetoCompletoOK ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; ProjetoCompletoOK ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; ProjetoCompletoOK ; Top                               ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --                ; --                                ;
+; TOP_LEVEL_ENTITY                    ; ProjetoCompletoOK              ; comparador    ; --                ; --                                ;
++-------------------------------------+--------------------------------+---------------+-------------------+-----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4743 MB             ; 00:00:32                           ;
-; Fitter               ; 00:00:13     ; 1.0                     ; 5492 MB             ; 00:00:07                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4677 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.0                     ; 4752 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4634 MB             ; 00:00:01                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:44                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4697 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:10     ; 1.4                     ; 5482 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4623 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4703 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4568 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:11                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-LKLUPSJQ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; LAPTOP-LKLUPSJQ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; LAPTOP-LKLUPSJQ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; LAPTOP-LKLUPSJQ  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; LAPTOP-LKLUPSJQ  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; HWC19            ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; HWC19            ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; HWC19            ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; HWC19            ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; HWC19            ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------

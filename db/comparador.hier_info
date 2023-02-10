@@ -89,6 +89,7 @@ pin_name4 <= DisplayOK:DisplayA.d4
 pin_name5 <= DisplayOK:DisplayA.e
 pin_name6 <= DisplayOK:DisplayA.f
 pin_name7 <= DisplayOK:DisplayA.g
+Sinal <= inst51[4].DB_MAX_OUTPUT_PORT_TYPE
 SAIDA[0] <= inst51[0].DB_MAX_OUTPUT_PORT_TYPE
 SAIDA[1] <= inst51[1].DB_MAX_OUTPUT_PORT_TYPE
 SAIDA[2] <= inst51[2].DB_MAX_OUTPUT_PORT_TYPE
