@@ -1,5 +1,5 @@
 Analysis & Synthesis report for comparador
-Fri Feb 03 11:51:31 2023
+Fri Feb 10 11:44:12 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,16 +43,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Feb 03 11:51:31 2023       ;
+; Analysis & Synthesis Status        ; Successful - Fri Feb 10 11:44:12 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; comparador                                  ;
 ; Top-level Entity Name              ; ProjetoCompletoOK                           ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 43                                          ;
-;     Total combinational functions  ; 43                                          ;
+; Total logic elements               ; 50                                          ;
+;     Total combinational functions  ; 50                                          ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 19                                          ;
+; Total pins                         ; 26                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -151,7 +151,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -162,27 +162,28 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                        ; Library ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------+---------+
-; comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/comparador.bdf        ;         ;
-; Half-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/Half-Adder.bdf        ;         ;
-; Full-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/Full-Adder.bdf        ;         ;
-; ProjetoCompletoOK.bdf            ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/ProjetoCompletoOK.bdf ;         ;
-; ComparadorOK.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/ComparadorOK.bdf      ;         ;
-; SomadorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/SomadorOK.bdf         ;         ;
-; MaiorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/MaiorQue.bdf          ;         ;
-; MaiorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/MaiorQueOK.bdf        ;         ;
-; Igual.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/Igual.bdf             ;         ;
-; MenorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/MenorQueOK.bdf        ;         ;
-; SeletorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/SeletorOK.bdf         ;         ;
-; ComplementoDe2.bdf               ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/ComplementoDe2.bdf    ;         ;
-; AndOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/AndOK.bdf             ;         ;
-; XorOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/XorOK.bdf             ;         ;
-; SomaUmOK.bdf                     ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/PROJETO SD-20230203T130524Z-001/PROJETO SD/ProjetoSD/SomaUmOK.bdf          ;         ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                    ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/comparador.bdf        ;         ;
+; Half-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Half-Adder.bdf        ;         ;
+; Full-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Full-Adder.bdf        ;         ;
+; ProjetoCompletoOK.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/ProjetoCompletoOK.bdf ;         ;
+; ComparadorOK.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/ComparadorOK.bdf      ;         ;
+; SomadorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/SomadorOK.bdf         ;         ;
+; MaiorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/MaiorQue.bdf          ;         ;
+; MaiorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/MaiorQueOK.bdf        ;         ;
+; Igual.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Igual.bdf             ;         ;
+; MenorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/MenorQueOK.bdf        ;         ;
+; SeletorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/SeletorOK.bdf         ;         ;
+; ComplementoDe2.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/ComplementoDe2.bdf    ;         ;
+; AndOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/AndOK.bdf             ;         ;
+; XorOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/XorOK.bdf             ;         ;
+; SomaUmOK.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/SomaUmOK.bdf          ;         ;
+; DisplayOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/DisplayOK.bdf         ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -190,30 +191,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+------------+
 ; Resource                                    ; Usage      ;
 +---------------------------------------------+------------+
-; Estimated Total logic elements              ; 43         ;
+; Estimated Total logic elements              ; 50         ;
 ;                                             ;            ;
-; Total combinational functions               ; 43         ;
+; Total combinational functions               ; 50         ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 31         ;
+;     -- 4 input functions                    ; 38         ;
 ;     -- 3 input functions                    ; 11         ;
 ;     -- <=2 input functions                  ; 1          ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 43         ;
+;     -- normal mode                          ; 50         ;
 ;     -- arithmetic mode                      ; 0          ;
 ;                                             ;            ;
 ; Total registers                             ; 0          ;
 ;     -- Dedicated logic registers            ; 0          ;
 ;     -- I/O registers                        ; 0          ;
 ;                                             ;            ;
-; I/O pins                                    ; 19         ;
+; I/O pins                                    ; 26         ;
 ;                                             ;            ;
 ; Embedded Multiplier 9-bit elements          ; 0          ;
 ;                                             ;            ;
-; Maximum fan-out node                        ; B[4]~input ;
-; Maximum fan-out                             ; 9          ;
-; Total fan-out                               ; 184        ;
-; Average fan-out                             ; 2.27       ;
+; Maximum fan-out node                        ; A[2]~input ;
+; Maximum fan-out                             ; 15         ;
+; Total fan-out                               ; 226        ;
+; Average fan-out                             ; 2.22       ;
 +---------------------------------------------+------------+
 
 
@@ -222,11 +223,12 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                    ; Entity Name       ; Library Name ;
 +--------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------+-------------------+--------------+
-; |ProjetoCompletoOK             ; 43 (26)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |ProjetoCompletoOK                                                                     ; ProjetoCompletoOK ; work         ;
+; |ProjetoCompletoOK             ; 50 (26)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 26   ; 0            ; |ProjetoCompletoOK                                                                     ; ProjetoCompletoOK ; work         ;
 ;    |ComplementoDe2:inst|       ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst                                                 ; ComplementoDe2    ; work         ;
 ;       |SomaUmOK:inst|          ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst                                   ; SomaUmOK          ; work         ;
 ;          |Full-Adder:inst7|    ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7                  ; Full-Adder        ; work         ;
 ;             |Half-Adder:inst1| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1 ; Half-Adder        ; work         ;
+;    |DisplayOK:DisplayA|        ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|DisplayOK:DisplayA                                                  ; DisplayOK         ; work         ;
 ;    |MaiorQueOK:inst34|         ; 6 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|MaiorQueOK:inst34                                                   ; MaiorQueOK        ; work         ;
 ;       |ComparadorOK:inst4|     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4                                ; ComparadorOK      ; work         ;
 ;    |SeletorOK:inst38|          ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SeletorOK:inst38                                                    ; SeletorOK         ; work         ;
@@ -260,15 +262,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 19                          ;
-; cycloneiii_lcell_comb ; 43                          ;
-;     normal            ; 43                          ;
+; boundary_port         ; 26                          ;
+; cycloneiii_lcell_comb ; 56                          ;
+;     normal            ; 56                          ;
+;         1 data inputs ; 6                           ;
 ;         2 data inputs ; 1                           ;
 ;         3 data inputs ; 11                          ;
-;         4 data inputs ; 31                          ;
+;         4 data inputs ; 38                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 3.89                        ;
+; Average LUT depth     ; 3.52                        ;
 +-----------------------+-----------------------------+
 
 
@@ -277,7 +280,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -287,7 +290,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Feb 03 11:51:18 2023
+    Info: Processing started: Fri Feb 10 11:43:57 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comparador -c comparador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -339,6 +342,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file somaumo
     Info (12023): Found entity 1: SomaUmOK
 Info (12021): Found 1 design units, including 1 entities, in source file block1ok.bdf
     Info (12023): Found entity 1: Block1OK
+Info (12021): Found 1 design units, including 1 entities, in source file displayok.bdf
+    Info (12023): Found entity 1: DisplayOK
 Info (12127): Elaborating entity "ProjetoCompletoOK" for the top level hierarchy
 Info (12128): Elaborating entity "MaiorQueOK" for hierarchy "MaiorQueOK:inst34"
 Info (12128): Elaborating entity "ComparadorOK" for hierarchy "MaiorQueOK:inst34|ComparadorOK:inst4"
@@ -349,6 +354,7 @@ Info (12128): Elaborating entity "SeletorOK" for hierarchy "SeletorOK:inst38"
 Warning (275043): Pin "xor" is missing source
 Warning (275008): Primitive "AND3" of instance "inst7" not used
 Info (12128): Elaborating entity "MenorQueOK" for hierarchy "MenorQueOK:inst35"
+Info (12128): Elaborating entity "DisplayOK" for hierarchy "DisplayOK:DisplayA"
 Info (12128): Elaborating entity "XorOK" for hierarchy "XorOK:Inst37"
 Info (12128): Elaborating entity "SomadorOK" for hierarchy "SomadorOK:inst30"
 Info (12128): Elaborating entity "Full-Adder" for hierarchy "SomadorOK:inst30|Full-Adder:inst"
@@ -362,14 +368,14 @@ Warning (275002): No superset bus at connection
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 76 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 6 output pins
-    Info (21061): Implemented 43 logic cells
+    Info (21059): Implemented 13 output pins
+    Info (21061): Implemented 50 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4750 megabytes
-    Info: Processing ended: Fri Feb 03 11:51:31 2023
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4743 megabytes
+    Info: Processing ended: Fri Feb 10 11:44:12 2023
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:32
 
 

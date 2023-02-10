@@ -389,23 +389,23 @@ R8
 R9
 n@maior@que_vlg_vec_tst
 vMaiorQueOK
-Z39 !s110 1675429925
+!s110 1675442087
 !i10b 1
-!s100 YjWJlWUbG2o4;YhiGhBAS3
+!s100 T_P>F9EX_L`OD`a@kR_N[0
 R1
-I^5=H8eQz6eOS_;dX<i@Se3
+ImGoDQaihMz4jUf8PFX0K[3
 R2
-R34
-w1675429921
+Z39 dC:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim
+w1675442086
 R3
 R4
-!i122 142
-L0 32 239
+!i122 160
+L0 32 205
 R5
 r1
 !s85 0
 31
-Z40 !s108 1675429925.000000
+Z40 !s108 1675442087.000000
 R6
 R7
 !i113 1
@@ -413,18 +413,18 @@ R8
 R9
 n@maior@que@o@k
 vMaiorQueOK_vlg_vec_tst
-R39
+!s110 1675442088
 !i10b 1
-!s100 L_VYL;JZief]j8DJX5cDW0
+!s100 kOGVb1TLzWIBc5oPBb;KT2
 R1
-I359kgOdc@afh39LS7@L>13
+Ia`DPl=HYg^S00zDLHNz9L1
 R2
-R34
-w1675429919
+R39
+w1675442085
 R14
 R15
-!i122 143
-L0 30 1019
+!i122 161
+L0 30 1076
 R5
 r1
 !s85 0

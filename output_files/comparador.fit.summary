@@ -1,15 +1,15 @@
-Fitter Status : Successful - Fri Feb 03 11:51:36 2023
+Fitter Status : Successful - Fri Feb 10 11:44:26 2023
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : comparador
 Top-level Entity Name : ProjetoCompletoOK
 Family : Cyclone IV E
 Device : EP4CE6E22A7
 Timing Models : Final
-Total logic elements : 43 / 6,272 ( < 1 % )
-    Total combinational functions : 43 / 6,272 ( < 1 % )
+Total logic elements : 50 / 6,272 ( < 1 % )
+    Total combinational functions : 50 / 6,272 ( < 1 % )
     Dedicated logic registers : 0 / 6,272 ( 0 % )
 Total registers : 0
-Total pins : 19 / 92 ( 21 % )
+Total pins : 26 / 92 ( 28 % )
 Total virtual pins : 0
 Total memory bits : 0 / 276,480 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
