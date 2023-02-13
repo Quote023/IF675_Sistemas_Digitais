@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off comparador -c comparador --vector_source="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Waveform.vwf" --testbench_file="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off comparador -c comparador --vector_source="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Waveform.vwf" --testbench_file="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/Waveform.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,8 +26,8 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Fri Feb 03 13:34:45 2023
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off comparador -c comparador --vector_source="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Waveform.vwf" --testbench_file="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/Waveform.vwf.vt"
+    Info: Processing started: Sat Feb 11 00:07:00 2023
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off comparador -c comparador --vector_source="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Waveform.vwf" --testbench_file="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/Waveform.vwf.vt"
 Info (119006): Selected device EP4CE6E22A7 for design "comparador"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -37,7 +37,7 @@ Completed successfully.
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/" comparador -c comparador
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/" comparador -c comparador
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -56,14 +56,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Fri Feb 03 13:34:46 2023
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/" comparador -c comparador
+    Info: Processing started: Sat Feb 11 00:07:01 2023
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/" comparador -c comparador
 Info (119006): Selected device EP4CE6E22A7 for design "comparador"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file comparador.vo in folder "C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file comparador.vo in folder "C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4638 megabytes
-    Info: Processing ended: Fri Feb 03 13:34:46 2023
+    Info: Peak virtual memory: 4641 megabytes
+    Info: Processing ended: Sat Feb 11 00:07:01 2023
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -71,7 +71,7 @@ Completed successfully.
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/comparador.do generated.
+C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/comparador.do generated.
 
 Completed successfully. 
 
@@ -81,57 +81,57 @@ C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vsim -c -do comparador.do
 
 Reading pref.tcl
 
-# 2020.1
 
+# 2020.1
 
 # do comparador.do
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:34:47 on Feb 03,2023
+# Start time: 00:07:02 on Feb 11,2023
 # vlog -work work comparador.vo 
-# -- Compiling module MaiorQueOK
+# -- Compiling module SomadorSubtratorOK2
 # 
 # Top level modules:
-# 	MaiorQueOK
-# End time: 13:34:47 on Feb 03,2023, Elapsed time: 0:00:00
+# 	SomadorSubtratorOK2
+# End time: 00:07:02 on Feb 11,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:34:47 on Feb 03,2023
+# Start time: 00:07:02 on Feb 11,2023
 # vlog -work work Waveform.vwf.vt 
-# -- Compiling module MaiorQueOK_vlg_vec_tst
+# -- Compiling module SomadorSubtratorOK2_vlg_vec_tst
 
 # 
 # Top level modules:
-# 	MaiorQueOK_vlg_vec_tst
-# End time: 13:34:48 on Feb 03,2023, Elapsed time: 0:00:01
+# 	SomadorSubtratorOK2_vlg_vec_tst
+# End time: 00:07:03 on Feb 11,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MaiorQueOK_vlg_vec_tst 
-# Start time: 13:34:48 on Feb 03,2023
-# Loading work.MaiorQueOK_vlg_vec_tst
-# Loading work.MaiorQueOK
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.SomadorSubtratorOK2_vlg_vec_tst 
+# Start time: 00:07:03 on Feb 11,2023
+# Loading work.SomadorSubtratorOK2_vlg_vec_tst
+# Loading work.SomadorSubtratorOK2
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
 # Loading cycloneive_ver.cycloneive_lcell_comb
 # after#25
-# ** Note: $finish    : Waveform.vwf.vt(47)
-#    Time: 1 us  Iteration: 0  Instance: /MaiorQueOK_vlg_vec_tst
-# End time: 13:34:48 on Feb 03,2023, Elapsed time: 0:00:00
+# ** Note: $finish    : Waveform.vwf.vt(59)
+#    Time: 1 us  Iteration: 0  Instance: /SomadorSubtratorOK2_vlg_vec_tst
+# End time: 00:07:03 on Feb 11,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/Waveform.vwf...
+Reading C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Waveform.vwf...
 
-Reading C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/comparador.msim.vcd...
+Reading C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/comparador.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main/IF675_Sistemas_Digitais-main/simulation/qsim/comparador_20230203133448.sim.vwf
+Writing the resulting VWF to C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/simulation/qsim/comparador_20230211000703.sim.vwf
 
 Finished VCD to VWF conversion.
 

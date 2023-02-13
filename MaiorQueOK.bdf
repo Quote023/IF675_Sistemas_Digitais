@@ -40,7 +40,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 184 48 352 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MA[4..0]" (rect 5 0 47 12)(font "Arial" ))
+	(text "MA[4..0]" (rect 5 0 46 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1197,16 +1197,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 848 56)
-	(pt 848 72)
-	(bus)
-)
-(connector
-	(pt 848 72)
-	(pt 848 88)
-	(bus)
-)
-(connector
 	(pt 848 88)
 	(pt 1328 88)
 	(bus)
@@ -1233,6 +1223,11 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 832 96)
 	(pt 1328 96)
+	(bus)
+)
+(connector
+	(pt 848 56)
+	(pt 848 88)
 	(bus)
 )
 (junction (pt 1160 648))

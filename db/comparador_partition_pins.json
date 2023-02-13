@@ -4,79 +4,79 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "STATUS",
+					"name" : "Sinal",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name1",
+					"name" : "AMaior",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name2",
+					"name" : "BMaior",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name3",
+					"name" : "SinalIgual",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name4",
+					"name" : "ComA[4]",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name5",
+					"name" : "ComA[3]",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name6",
+					"name" : "ComA[2]",
 					"strict" : false
 				},
 				{
-					"name" : "pin_name7",
+					"name" : "ComA[1]",
 					"strict" : false
 				},
 				{
-					"name" : "SAIDA[4]",
+					"name" : "ComA[0]",
 					"strict" : false
 				},
 				{
-					"name" : "SAIDA[3]",
+					"name" : "ComB[4]",
 					"strict" : false
 				},
 				{
-					"name" : "SAIDA[2]",
+					"name" : "ComB[3]",
 					"strict" : false
 				},
 				{
-					"name" : "SAIDA[1]",
+					"name" : "ComB[2]",
 					"strict" : false
 				},
 				{
-					"name" : "SAIDA[0]",
+					"name" : "ComB[1]",
 					"strict" : false
 				},
 				{
-					"name" : "S0",
+					"name" : "ComB[0]",
 					"strict" : false
 				},
 				{
-					"name" : "S1",
+					"name" : "F[4]",
 					"strict" : false
 				},
 				{
-					"name" : "S2",
+					"name" : "F[3]",
 					"strict" : false
 				},
 				{
-					"name" : "B[4]",
+					"name" : "F[2]",
 					"strict" : false
 				},
 				{
-					"name" : "A[3]",
+					"name" : "F[1]",
 					"strict" : false
 				},
 				{
-					"name" : "B[3]",
+					"name" : "F[0]",
 					"strict" : false
 				},
 				{
@@ -84,15 +84,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "A[2]",
+					"name" : "B[4]",
 					"strict" : false
 				},
 				{
-					"name" : "A[1]",
-					"strict" : false
-				},
-				{
-					"name" : "A[0]",
+					"name" : "B[3]",
 					"strict" : false
 				},
 				{
@@ -105,6 +101,22 @@
 				},
 				{
 					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
 					"strict" : false
 				}
 			]

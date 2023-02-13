@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Feb 10 11:53:12 2023
-Quartus II 64-Bit Version : 14.0.0 Build 200 06/17/2014 SJ Full Version
+Analysis & Synthesis Status : Successful - Sat Feb 11 00:06:19 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : comparador
-Top-level Entity Name : ProjetoCompletoOK
+Top-level Entity Name : SomadorSubtratorOK2
 Family : Cyclone IV E
-Total logic elements : 50
-    Total combinational functions : 50
+Total logic elements : 54
+    Total combinational functions : 54
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 27
+Total pins : 29
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

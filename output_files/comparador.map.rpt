@@ -1,6 +1,6 @@
 Analysis & Synthesis report for comparador
-Fri Feb 10 11:53:12 2023
-Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Full Version
+Sat Feb 11 00:06:19 2023
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -23,36 +23,36 @@ Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Full Version
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus II License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Feb 10 11:53:12 2023       ;
-; Quartus II 64-Bit Version          ; 14.0.0 Build 200 06/17/2014 SJ Full Version ;
+; Analysis & Synthesis Status        ; Successful - Sat Feb 11 00:06:19 2023       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; comparador                                  ;
-; Top-level Entity Name              ; ProjetoCompletoOK                           ;
+; Top-level Entity Name              ; SomadorSubtratorOK2                         ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 50                                          ;
-;     Total combinational functions  ; 50                                          ;
+; Total logic elements               ; 54                                          ;
+;     Total combinational functions  ; 54                                          ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 27                                          ;
+; Total pins                         ; 29                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -60,91 +60,90 @@ agreement for further details.
 +------------------------------------+---------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                        ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Option                                                                     ; Setting            ; Default Value      ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; EP4CE6E22A7        ;                    ;
-; Top-level entity name                                                      ; ProjetoCompletoOK  ; comparador         ;
-; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
-; Use smart compilation                                                      ; Off                ; Off                ;
-; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
-; Enable compact report table                                                ; Off                ; Off                ;
-; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
-; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
-; Preserve fewer node names                                                  ; On                 ; On                 ;
-; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
-; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
-; State Machine Processing                                                   ; Auto               ; Auto               ;
-; Safe State Machine                                                         ; Off                ; Off                ;
-; Extract Verilog State Machines                                             ; On                 ; On                 ;
-; Extract VHDL State Machines                                                ; On                 ; On                 ;
-; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
-; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
-; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
-; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
-; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
-; Parallel Synthesis                                                         ; On                 ; On                 ;
-; DSP Block Balancing                                                        ; Auto               ; Auto               ;
-; NOT Gate Push-Back                                                         ; On                 ; On                 ;
-; Power-Up Don't Care                                                        ; On                 ; On                 ;
-; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
-; Remove Duplicate Registers                                                 ; On                 ; On                 ;
-; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
-; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
-; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
-; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
-; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
-; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
-; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
-; Optimization Technique                                                     ; Balanced           ; Balanced           ;
-; Carry Chain Length                                                         ; 70                 ; 70                 ;
-; Auto Carry Chains                                                          ; On                 ; On                 ;
-; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
-; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
-; Auto ROM Replacement                                                       ; On                 ; On                 ;
-; Auto RAM Replacement                                                       ; On                 ; On                 ;
-; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
-; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
-; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
-; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
-; Strict RAM Replacement                                                     ; Off                ; Off                ;
-; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
-; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
-; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
-; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
-; Auto Resource Sharing                                                      ; Off                ; Off                ;
-; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
-; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
-; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
-; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
-; Report Parameter Settings                                                  ; On                 ; On                 ;
-; Report Source Assignments                                                  ; On                 ; On                 ;
-; Report Connectivity Checks                                                 ; On                 ; On                 ;
-; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
-; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
-; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
-; HDL message level                                                          ; Level2             ; Level2             ;
-; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
-; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
-; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
-; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
-; Clock MUX Protection                                                       ; On                 ; On                 ;
-; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
-; Block Design Naming                                                        ; Auto               ; Auto               ;
-; SDC constraint protection                                                  ; Off                ; Off                ;
-; Synthesis Effort                                                           ; Auto               ; Auto               ;
-; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
-; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
-; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
-; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
-; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
-; Synthesis Seed                                                             ; 1                  ; 1                  ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
++-------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                               ;
++------------------------------------------------------------------+---------------------+--------------------+
+; Option                                                           ; Setting             ; Default Value      ;
++------------------------------------------------------------------+---------------------+--------------------+
+; Device                                                           ; EP4CE6E22A7         ;                    ;
+; Top-level entity name                                            ; SomadorSubtratorOK2 ; comparador         ;
+; Family name                                                      ; Cyclone IV E        ; Cyclone V          ;
+; Use smart compilation                                            ; Off                 ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                  ; On                 ;
+; Enable compact report table                                      ; Off                 ; Off                ;
+; Restructure Multiplexers                                         ; Auto                ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                 ; Off                ;
+; Preserve fewer node names                                        ; On                  ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable              ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001        ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993           ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto                ; Auto               ;
+; Safe State Machine                                               ; Off                 ; Off                ;
+; Extract Verilog State Machines                                   ; On                  ; On                 ;
+; Extract VHDL State Machines                                      ; On                  ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                 ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000                ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                 ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                  ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                  ; On                 ;
+; Parallel Synthesis                                               ; On                  ; On                 ;
+; DSP Block Balancing                                              ; Auto                ; Auto               ;
+; NOT Gate Push-Back                                               ; On                  ; On                 ;
+; Power-Up Don't Care                                              ; On                  ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                 ; Off                ;
+; Remove Duplicate Registers                                       ; On                  ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                 ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                 ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                 ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                 ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                 ; Off                ;
+; Ignore SOFT Buffers                                              ; On                  ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                 ; Off                ;
+; Optimization Technique                                           ; Balanced            ; Balanced           ;
+; Carry Chain Length                                               ; 70                  ; 70                 ;
+; Auto Carry Chains                                                ; On                  ; On                 ;
+; Auto Open-Drain Pins                                             ; On                  ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                 ; Off                ;
+; Auto ROM Replacement                                             ; On                  ; On                 ;
+; Auto RAM Replacement                                             ; On                  ; On                 ;
+; Auto DSP Block Replacement                                       ; On                  ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto                ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto                ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                  ; On                 ;
+; Strict RAM Replacement                                           ; Off                 ; Off                ;
+; Allow Synchronous Control Signals                                ; On                  ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                 ; Off                ;
+; Auto RAM Block Balancing                                         ; On                  ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                 ; Off                ;
+; Auto Resource Sharing                                            ; Off                 ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                 ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                 ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                 ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                  ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                 ; Off                ;
+; Timing-Driven Synthesis                                          ; On                  ; On                 ;
+; Report Parameter Settings                                        ; On                  ; On                 ;
+; Report Source Assignments                                        ; On                  ; On                 ;
+; Report Connectivity Checks                                       ; On                  ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                 ; Off                ;
+; Synchronization Register Chain Length                            ; 2                   ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation  ; Normal compilation ;
+; HDL message level                                                ; Level2              ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                 ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000                ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000                ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                 ; 100                ;
+; Clock MUX Protection                                             ; On                  ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                 ; Off                ;
+; Block Design Naming                                              ; Auto                ; Auto               ;
+; SDC constraint protection                                        ; Off                 ; Off                ;
+; Synthesis Effort                                                 ; Auto                ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                  ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                 ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium              ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto                ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                  ; On                 ;
++------------------------------------------------------------------+---------------------+--------------------+
 
 
 +------------------------------------------+
@@ -152,7 +151,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -160,32 +159,29 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                           ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
-; comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/comparador.bdf        ;         ;
-; Half-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/Half-Adder.bdf        ;         ;
-; Full-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/Full-Adder.bdf        ;         ;
-; ProjetoCompletoOK.bdf            ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/ProjetoCompletoOK.bdf ;         ;
-; ComparadorOK.bdf                 ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/ComparadorOK.bdf      ;         ;
-; SomadorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/SomadorOK.bdf         ;         ;
-; MaiorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/MaiorQue.bdf          ;         ;
-; MaiorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/MaiorQueOK.bdf        ;         ;
-; Igual.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/Igual.bdf             ;         ;
-; MenorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/MenorQueOK.bdf        ;         ;
-; SeletorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/SeletorOK.bdf         ;         ;
-; ComplementoDe2.bdf               ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/ComplementoDe2.bdf    ;         ;
-; AndOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/AndOK.bdf             ;         ;
-; XorOK.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/XorOK.bdf             ;         ;
-; SomaUmOK.bdf                     ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/SomaUmOK.bdf          ;         ;
-; DisplayOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; D:/Users/acs11/Downloads/IF675_Sistemas_Digitais/DisplayOK.bdf         ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                          ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/comparador.bdf          ;         ;
+; Half-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Half-Adder.bdf          ;         ;
+; Full-Adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Full-Adder.bdf          ;         ;
+; ComparadorOK.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/ComparadorOK.bdf        ;         ;
+; SomadorOK.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/SomadorOK.bdf           ;         ;
+; MaiorQue.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/MaiorQue.bdf            ;         ;
+; MaiorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/MaiorQueOK.bdf          ;         ;
+; Igual.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Igual.bdf               ;         ;
+; MenorQueOK.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/MenorQueOK.bdf          ;         ;
+; Full-Sub.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/Full-Sub.bdf            ;         ;
+; SubtradorOK.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/SubtradorOK.bdf         ;         ;
+; ComplementoDe2.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/ComplementoDe2.bdf      ;         ;
+; SomaUmOK.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/SomaUmOK.bdf            ;         ;
+; SomadorSubtratorOK2.bdf          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Danilo Souza/Downloads/IF675_Sistemas_Digitais-main (1)/IF675_Sistemas_Digitais-main/SomadorSubtratorOK2.bdf ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -193,52 +189,67 @@ agreement for further details.
 +---------------------------------------------+------------+
 ; Resource                                    ; Usage      ;
 +---------------------------------------------+------------+
-; Estimated Total logic elements              ; 50         ;
+; Estimated Total logic elements              ; 54         ;
 ;                                             ;            ;
-; Total combinational functions               ; 50         ;
+; Total combinational functions               ; 54         ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 38         ;
-;     -- 3 input functions                    ; 11         ;
-;     -- <=2 input functions                  ; 1          ;
+;     -- 4 input functions                    ; 34         ;
+;     -- 3 input functions                    ; 16         ;
+;     -- <=2 input functions                  ; 4          ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 50         ;
+;     -- normal mode                          ; 54         ;
 ;     -- arithmetic mode                      ; 0          ;
 ;                                             ;            ;
 ; Total registers                             ; 0          ;
 ;     -- Dedicated logic registers            ; 0          ;
 ;     -- I/O registers                        ; 0          ;
 ;                                             ;            ;
-; I/O pins                                    ; 27         ;
+; I/O pins                                    ; 29         ;
+;                                             ;            ;
 ; Embedded Multiplier 9-bit elements          ; 0          ;
-; Maximum fan-out node                        ; A[2]~input ;
-; Maximum fan-out                             ; 15         ;
-; Total fan-out                               ; 228        ;
-; Average fan-out                             ; 2.19       ;
+;                                             ;            ;
+; Maximum fan-out node                        ; B[0]~input ;
+; Maximum fan-out                             ; 13         ;
+; Total fan-out                               ; 240        ;
+; Average fan-out                             ; 2.14       ;
 +---------------------------------------------+------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                    ; Library Name ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------+--------------+
-; |ProjetoCompletoOK             ; 50 (26)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 27   ; 0            ; |ProjetoCompletoOK                                                                     ; work         ;
-;    |ComplementoDe2:inst|       ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst                                                 ; work         ;
-;       |SomaUmOK:inst|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst                                   ; work         ;
-;          |Full-Adder:inst7|    ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7                  ; work         ;
-;             |Half-Adder:inst1| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1 ; work         ;
-;    |DisplayOK:DisplayA|        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|DisplayOK:DisplayA                                                  ; work         ;
-;    |MaiorQueOK:inst34|         ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|MaiorQueOK:inst34                                                   ; work         ;
-;       |ComparadorOK:inst4|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4                                ; work         ;
-;    |SeletorOK:inst38|          ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SeletorOK:inst38                                                    ; work         ;
-;    |SomadorOK:inst30|          ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30                                                    ; work         ;
-;       |Full-Adder:inst6|       ; 2 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst6                                   ; work         ;
-;          |Half-Adder:inst1|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst6|Half-Adder:inst1                  ; work         ;
-;       |Full-Adder:inst7|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst7                                   ; work         ;
-;       |Full-Adder:inst8|       ; 2 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst8                                   ; work         ;
-;          |Half-Adder:inst1|    ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst8|Half-Adder:inst1                  ; work         ;
-+--------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                        ;
++--------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node     ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                       ; Entity Name         ; Library Name ;
++--------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
+; |SomadorSubtratorOK2           ; 54 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 29   ; 0            ; |SomadorSubtratorOK2                                                                      ; SomadorSubtratorOK2 ; work         ;
+;    |ComplementoDe2:inst7|      ; 5 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst7                                                 ; ComplementoDe2      ; work         ;
+;       |SomaUmOK:inst|          ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst                                   ; SomaUmOK            ; work         ;
+;          |Full-Adder:inst7|    ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst7                  ; Full-Adder          ; work         ;
+;             |Half-Adder:inst1| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1 ; Half-Adder          ; work         ;
+;    |ComplementoDe2:inst8|      ; 5 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst8                                                 ; ComplementoDe2      ; work         ;
+;       |SomaUmOK:inst|          ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst                                   ; SomaUmOK            ; work         ;
+;          |Full-Adder:inst7|    ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst7                  ; Full-Adder          ; work         ;
+;             |Half-Adder:inst1| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1 ; Half-Adder          ; work         ;
+;    |Igual:inst|                ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|Igual:inst                                                           ; Igual               ; work         ;
+;    |MaiorQueOK:inst4|          ; 11 (4)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4                                                     ; MaiorQueOK          ; work         ;
+;       |ComparadorOK:inst4|     ; 3 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4                                  ; ComparadorOK        ; work         ;
+;          |comparador:inst9|    ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst9                 ; comparador          ; work         ;
+;       |Igual:inst10|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst10                                        ; Igual               ; work         ;
+;       |Igual:inst13|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst13                                        ; Igual               ; work         ;
+;       |Igual:inst1|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst1                                         ; Igual               ; work         ;
+;       |Igual:inst9|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst9                                         ; Igual               ; work         ;
+;    |MenorQueOK:inst34|         ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|MenorQueOK:inst34                                                    ; MenorQueOK          ; work         ;
+;    |SomadorOK:inst12|          ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SomadorOK:inst12                                                     ; SomadorOK           ; work         ;
+;       |Full-Adder:inst6|       ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst6                                    ; Full-Adder          ; work         ;
+;       |Full-Adder:inst7|       ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst7                                    ; Full-Adder          ; work         ;
+;       |Full-Adder:inst8|       ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst8                                    ; Full-Adder          ; work         ;
+;    |SubtradorOK:inst55|        ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst55                                                   ; SubtradorOK         ; work         ;
+;       |Full-Sub:inst9|         ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst55|Full-Sub:inst9                                    ; Full-Sub            ; work         ;
+;    |SubtradorOK:inst9|         ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst9                                                    ; SubtradorOK         ; work         ;
+;       |Full-Sub:inst8|         ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst8                                     ; Full-Sub            ; work         ;
+;       |Full-Sub:inst9|         ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst9                                     ; Full-Sub            ; work         ;
+;       |Full-Sub:inst|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst                                      ; Full-Sub            ; work         ;
++--------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -262,16 +273,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 27                          ;
+; boundary_port         ; 29                          ;
 ; cycloneiii_lcell_comb ; 56                          ;
 ;     normal            ; 56                          ;
-;         1 data inputs ; 6                           ;
-;         2 data inputs ; 1                           ;
-;         3 data inputs ; 11                          ;
-;         4 data inputs ; 38                          ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 4                           ;
+;         3 data inputs ; 16                          ;
+;         4 data inputs ; 34                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 3.52                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 6.92                        ;
 +-----------------------+-----------------------------+
 
 
@@ -288,10 +299,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 14.0.0 Build 200 06/17/2014 SJ Full Version
-    Info: Processing started: Fri Feb 10 11:53:07 2023
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sat Feb 11 00:06:08 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off comparador -c comparador
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file comparador.bdf
     Info (12023): Found entity 1: comparador
@@ -343,38 +355,37 @@ Info (12021): Found 1 design units, including 1 entities, in source file block1o
     Info (12023): Found entity 1: Block1OK
 Info (12021): Found 1 design units, including 1 entities, in source file displayok.bdf
     Info (12023): Found entity 1: DisplayOK
-Info (12127): Elaborating entity "ProjetoCompletoOK" for the top level hierarchy
-Info (12128): Elaborating entity "MaiorQueOK" for hierarchy "MaiorQueOK:inst34"
-Info (12128): Elaborating entity "ComparadorOK" for hierarchy "MaiorQueOK:inst34|ComparadorOK:inst4"
-Info (12128): Elaborating entity "comparador" for hierarchy "MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst16"
-Info (12128): Elaborating entity "Igual" for hierarchy "MaiorQueOK:inst34|Igual:inst9"
-Info (12128): Elaborating entity "MaiorQue" for hierarchy "MaiorQueOK:inst34|MaiorQue:inst2"
-Info (12128): Elaborating entity "SeletorOK" for hierarchy "SeletorOK:inst38"
-Warning (275043): Pin "xor" is missing source
-Warning (275008): Primitive "AND3" of instance "inst7" not used
-Info (12128): Elaborating entity "MenorQueOK" for hierarchy "MenorQueOK:inst35"
-Info (12128): Elaborating entity "DisplayOK" for hierarchy "DisplayOK:DisplayA"
-Info (12128): Elaborating entity "XorOK" for hierarchy "XorOK:Inst37"
-Info (12128): Elaborating entity "SomadorOK" for hierarchy "SomadorOK:inst30"
-Info (12128): Elaborating entity "Full-Adder" for hierarchy "SomadorOK:inst30|Full-Adder:inst"
-Info (12128): Elaborating entity "Half-Adder" for hierarchy "SomadorOK:inst30|Full-Adder:inst|Half-Adder:inst1"
-Info (12128): Elaborating entity "ComplementoDe2" for hierarchy "ComplementoDe2:inst"
+Info (12021): Found 1 design units, including 1 entities, in source file somadorsubtratorok.bdf
+    Info (12023): Found entity 1: SomadorSubtratorOK
+Info (12021): Found 1 design units, including 1 entities, in source file somadorsubtratorok2.bdf
+    Info (12023): Found entity 1: SomadorSubtratorOK2
+Info (12127): Elaborating entity "SomadorSubtratorOK2" for the top level hierarchy
+Info (12128): Elaborating entity "Igual" for hierarchy "Igual:inst"
+Info (12128): Elaborating entity "MaiorQueOK" for hierarchy "MaiorQueOK:inst4"
+Info (12128): Elaborating entity "ComparadorOK" for hierarchy "MaiorQueOK:inst4|ComparadorOK:inst4"
+Info (12128): Elaborating entity "comparador" for hierarchy "MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst16"
+Info (12128): Elaborating entity "MaiorQue" for hierarchy "MaiorQueOK:inst4|MaiorQue:inst2"
+Info (12128): Elaborating entity "ComplementoDe2" for hierarchy "ComplementoDe2:inst7"
 Warning (275002): No superset bus at connection
 Warning (275008): Primitive "NOT" of instance "inst11" not used
-Info (12128): Elaborating entity "SomaUmOK" for hierarchy "ComplementoDe2:inst|SomaUmOK:inst"
-Info (12128): Elaborating entity "AndOK" for hierarchy "AndOK:inst36"
-Warning (275002): No superset bus at connection
+Info (12128): Elaborating entity "SomaUmOK" for hierarchy "ComplementoDe2:inst7|SomaUmOK:inst"
+Info (12128): Elaborating entity "Full-Adder" for hierarchy "ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst"
+Info (12128): Elaborating entity "Half-Adder" for hierarchy "ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst1"
+Info (12128): Elaborating entity "MenorQueOK" for hierarchy "MenorQueOK:inst34"
+Info (12128): Elaborating entity "SomadorOK" for hierarchy "SomadorOK:inst12"
+Info (12128): Elaborating entity "SubtradorOK" for hierarchy "SubtradorOK:inst9"
+Info (12128): Elaborating entity "Full-Sub" for hierarchy "SubtradorOK:inst9|Full-Sub:inst8"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 77 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 13 input pins
-    Info (21059): Implemented 14 output pins
-    Info (21061): Implemented 50 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4697 megabytes
-    Info: Processing ended: Fri Feb 10 11:53:12 2023
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:02
+Info (21057): Implemented 83 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 19 output pins
+    Info (21061): Implemented 54 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4745 megabytes
+    Info: Processing ended: Sat Feb 11 00:06:19 2023
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:26
 
 

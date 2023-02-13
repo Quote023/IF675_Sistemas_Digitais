@@ -1,103 +1,46 @@
-|ProjetoCompletoOK
-STATUS <= inst11.DB_MAX_OUTPUT_PORT_TYPE
-A[0] => MaiorQueOK:inst34.MA[0]
-A[0] => ComparadorOK:inst33.A[0]
-A[0] => MenorQueOK:inst35.MA[0]
-A[0] => DisplayOK:DisplayA.A
-A[0] => XorOK:Inst37.A[0]
-A[0] => SomadorOK:inst30.SA[0]
-A[0] => AndOK:inst36.A[0]
-A[0] => SomadorOK:inst31.SA[0]
-A[0] => SomadorOK:inst31.SB[0]
-A[1] => MaiorQueOK:inst34.MA[1]
-A[1] => ComparadorOK:inst33.A[1]
-A[1] => MenorQueOK:inst35.MA[1]
-A[1] => DisplayOK:DisplayA.B
-A[1] => XorOK:Inst37.A[1]
-A[1] => SomadorOK:inst30.SA[1]
-A[1] => AndOK:inst36.A[1]
-A[1] => SomadorOK:inst31.SA[1]
-A[1] => SomadorOK:inst31.SB[1]
-A[2] => MaiorQueOK:inst34.MA[2]
-A[2] => ComparadorOK:inst33.A[2]
-A[2] => MenorQueOK:inst35.MA[2]
-A[2] => DisplayOK:DisplayA.C
-A[2] => XorOK:Inst37.A[2]
-A[2] => SomadorOK:inst30.SA[2]
-A[2] => AndOK:inst36.A[2]
-A[2] => SomadorOK:inst31.SA[2]
-A[2] => SomadorOK:inst31.SB[2]
-A[3] => MaiorQueOK:inst34.MA[3]
-A[3] => ComparadorOK:inst33.A[3]
-A[3] => MenorQueOK:inst35.MA[3]
-A[3] => DisplayOK:DisplayA.D
-A[3] => XorOK:Inst37.A[3]
-A[3] => SomadorOK:inst30.SA[3]
-A[3] => AndOK:inst36.A[3]
-A[3] => SomadorOK:inst31.SA[3]
-A[3] => SomadorOK:inst31.SB[3]
-A[4] => MaiorQueOK:inst34.MA[4]
-A[4] => ComparadorOK:inst33.A[4]
-A[4] => MenorQueOK:inst35.MA[4]
-A[4] => XorOK:Inst37.A[4]
-A[4] => SomadorOK:inst30.SA[4]
-A[4] => AndOK:inst36.A[4]
-A[4] => SomadorOK:inst31.SA[4]
-A[4] => SomadorOK:inst31.SB[4]
-B[0] => MaiorQueOK:inst34.MB[0]
-B[0] => ComparadorOK:inst33.B[0]
-B[0] => MenorQueOK:inst35.MB[0]
-B[0] => XorOK:Inst37.B[0]
-B[0] => SomadorOK:inst30.SB[0]
-B[0] => ComplementoDe2:inst.B[0]
-B[0] => AndOK:inst36.B[0]
-B[1] => MaiorQueOK:inst34.MB[1]
-B[1] => ComparadorOK:inst33.B[1]
-B[1] => MenorQueOK:inst35.MB[1]
-B[1] => XorOK:Inst37.B[1]
-B[1] => SomadorOK:inst30.SB[1]
-B[1] => ComplementoDe2:inst.B[1]
-B[1] => AndOK:inst36.B[1]
-B[2] => MaiorQueOK:inst34.MB[2]
-B[2] => ComparadorOK:inst33.B[2]
-B[2] => MenorQueOK:inst35.MB[2]
-B[2] => XorOK:Inst37.B[2]
-B[2] => SomadorOK:inst30.SB[2]
-B[2] => ComplementoDe2:inst.B[2]
-B[2] => AndOK:inst36.B[2]
-B[3] => MaiorQueOK:inst34.MB[3]
-B[3] => ComparadorOK:inst33.B[3]
-B[3] => MenorQueOK:inst35.MB[3]
-B[3] => XorOK:Inst37.B[3]
-B[3] => SomadorOK:inst30.SB[3]
-B[3] => ComplementoDe2:inst.B[3]
-B[3] => AndOK:inst36.B[3]
-B[4] => MaiorQueOK:inst34.MB[4]
-B[4] => ComparadorOK:inst33.B[4]
-B[4] => MenorQueOK:inst35.MB[4]
-B[4] => XorOK:Inst37.B[4]
-B[4] => SomadorOK:inst30.SB[4]
-B[4] => ComplementoDe2:inst.B[4]
-B[4] => AndOK:inst36.B[4]
-S0 => SeletorOK:inst38.S0
-S1 => SeletorOK:inst38.S1
-S2 => SeletorOK:inst38.S2
-pin_name1 <= DisplayOK:DisplayA.a1
-pin_name2 <= DisplayOK:DisplayA.b2
-pin_name3 <= DisplayOK:DisplayA.c3
-pin_name4 <= DisplayOK:DisplayA.d4
-pin_name5 <= DisplayOK:DisplayA.e
-pin_name6 <= DisplayOK:DisplayA.f
-pin_name7 <= DisplayOK:DisplayA.g
-Sinal <= inst51[4].DB_MAX_OUTPUT_PORT_TYPE
-SAIDA[0] <= inst51[0].DB_MAX_OUTPUT_PORT_TYPE
-SAIDA[1] <= inst51[1].DB_MAX_OUTPUT_PORT_TYPE
-SAIDA[2] <= inst51[2].DB_MAX_OUTPUT_PORT_TYPE
-SAIDA[3] <= inst51[3].DB_MAX_OUTPUT_PORT_TYPE
-SAIDA[4] <= inst51[4].DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2
+Sinal <= inst65.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => ComplementoDe2:inst7.B[0]
+A[1] => ComplementoDe2:inst7.B[1]
+A[2] => ComplementoDe2:inst7.B[2]
+A[3] => ComplementoDe2:inst7.B[3]
+A[4] => Igual:inst.A
+A[4] => ComplementoDe2:inst7.B[4]
+A[4] => inst60.IN1
+B[0] => ComplementoDe2:inst8.B[0]
+B[1] => ComplementoDe2:inst8.B[1]
+B[2] => ComplementoDe2:inst8.B[2]
+B[3] => ComplementoDe2:inst8.B[3]
+B[4] => Igual:inst.B
+B[4] => ComplementoDe2:inst8.B[4]
+B[4] => inst62.IN1
+AMaior <= MaiorQueOK:inst4.SAIDA
+BMaior <= MenorQueOK:inst34.SAIDA
+SinalIgual <= Igual:inst.S
+ComA[0] <= ComplementoDe2:inst7.F[0]
+ComA[1] <= ComplementoDe2:inst7.F[1]
+ComA[2] <= ComplementoDe2:inst7.F[2]
+ComA[3] <= ComplementoDe2:inst7.F[3]
+ComA[4] <= ComplementoDe2:inst7.F[4]
+ComB[0] <= ComplementoDe2:inst8.F[0]
+ComB[1] <= ComplementoDe2:inst8.F[1]
+ComB[2] <= ComplementoDe2:inst8.F[2]
+ComB[3] <= ComplementoDe2:inst8.F[3]
+ComB[4] <= ComplementoDe2:inst8.F[4]
+F[0] <= inst20[0].DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= inst20[1].DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= inst20[2].DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= inst20[3].DB_MAX_OUTPUT_PORT_TYPE
+F[4] <= inst20[4].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34
+|SomadorSubtratorOK2|Igual:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+B => inst1.IN1
+
+
+|SomadorSubtratorOK2|MaiorQueOK:inst4
 SAIDA <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 MA[0] => ComparadorOK:inst4.A[0]
 MA[0] => MaiorQue:inst2.A
@@ -127,7 +70,7 @@ MB[4] => ComparadorOK:inst4.B[4]
 MB[4] => inst57.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4
 C <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => comparador:inst9.A
 A[1] => comparador:inst10.A
@@ -141,7 +84,7 @@ B[3] => comparador:inst12.B
 B[4] => comparador:inst16.B
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst16
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst16
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -149,7 +92,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst12
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst12
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -157,7 +100,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst11
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst11
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -165,7 +108,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst10
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst10
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -173,7 +116,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|ComparadorOK:inst4|comparador:inst9
+|SomadorSubtratorOK2|MaiorQueOK:inst4|ComparadorOK:inst4|comparador:inst9
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -181,139 +124,349 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|Igual:inst9
+|SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst9
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|Igual:inst10
+|SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst10
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|Igual:inst13
+|SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst13
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|Igual:inst1
+|SomadorSubtratorOK2|MaiorQueOK:inst4|Igual:inst1
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|MaiorQue:inst2
+|SomadorSubtratorOK2|MaiorQueOK:inst4|MaiorQue:inst2
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|MaiorQue:inst20
+|SomadorSubtratorOK2|MaiorQueOK:inst4|MaiorQue:inst20
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|MaiorQue:inst11
+|SomadorSubtratorOK2|MaiorQueOK:inst4|MaiorQue:inst11
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|MaiorQue:inst12
+|SomadorSubtratorOK2|MaiorQueOK:inst4|MaiorQue:inst12
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MaiorQueOK:inst34|MaiorQue:inst8
+|SomadorSubtratorOK2|MaiorQueOK:inst4|MaiorQue:inst8
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|SeletorOK:inst38
-soma <= inst43.DB_MAX_OUTPUT_PORT_TYPE
-S0 => inst8.IN0
-S0 => inst4.IN0
-S0 => inst5.IN0
-S0 => inst6.IN0
-S1 => inst.IN0
-S1 => inst2.IN1
-S1 => inst3.IN1
-S1 => inst4.IN1
-S1 => inst6.IN1
-S2 => inst9.IN0
-S2 => inst1.IN2
-S2 => inst3.IN2
-S2 => inst5.IN2
-sub <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-comp2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-igual <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-maiorq <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-menorq <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-and <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-xor <= <GND>
+|SomadorSubtratorOK2|ComplementoDe2:inst7
+F[0] <= inst12[0].DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= inst12[1].DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= inst12[2].DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= inst12[3].DB_MAX_OUTPUT_PORT_TYPE
+F[4] <= inst12[4].DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst10[0].IN0
+B[0] => inst7.IN0
+B[1] => inst10[1].IN0
+B[1] => inst6.IN0
+B[2] => inst10[2].IN0
+B[2] => inst5.IN0
+B[3] => inst10[3].IN0
+B[3] => inst4.IN0
+B[4] => inst10[4].IN0
+B[4] => inst2.IN0
+B[4] => inst16.IN0
+B[4] => Igual:inst3.B
 
 
-|ProjetoCompletoOK|ComparadorOK:inst33
-C <= inst15.DB_MAX_OUTPUT_PORT_TYPE
-A[0] => comparador:inst9.A
-A[1] => comparador:inst10.A
-A[2] => comparador:inst11.A
-A[3] => comparador:inst12.A
-A[4] => comparador:inst16.A
-B[0] => comparador:inst9.B
-B[1] => comparador:inst10.B
-B[2] => comparador:inst11.B
-B[3] => comparador:inst12.B
-B[4] => comparador:inst16.B
+|SomadorSubtratorOK2|ComplementoDe2:inst7|Igual:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+B => inst1.IN1
 
 
-|ProjetoCompletoOK|ComparadorOK:inst33|comparador:inst16
-SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-B => inst3.IN0
-B => inst.IN1
-A => inst4.IN0
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst
+S[0] <= Full-Adder:inst.SOMA
+S[1] <= Full-Adder:inst6.SOMA
+S[2] <= Full-Adder:inst7.SOMA
+S[3] <= Full-Adder:inst8.SOMA
+S[4] <= Full-Adder:inst8.CARRY
+B[0] => Full-Adder:inst.A
+B[1] => Full-Adder:inst6.A
+B[2] => Full-Adder:inst7.A
+B[3] => Full-Adder:inst8.A
+B[4] => ~NO_FANOUT~
+SA => Full-Adder:inst.B
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-
-
-|ProjetoCompletoOK|ComparadorOK:inst33|comparador:inst12
-SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-B => inst3.IN0
+A => inst2.IN0
 B => inst.IN1
-A => inst4.IN0
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-
-
-|ProjetoCompletoOK|ComparadorOK:inst33|comparador:inst11
-SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-B => inst3.IN0
+A => inst2.IN0
 B => inst.IN1
-A => inst4.IN0
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst7
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-
-
-|ProjetoCompletoOK|ComparadorOK:inst33|comparador:inst10
-SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-B => inst3.IN0
+A => inst2.IN0
 B => inst.IN1
-A => inst4.IN0
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
-
-
-|ProjetoCompletoOK|ComparadorOK:inst33|comparador:inst9
-SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-B => inst3.IN0
+A => inst2.IN0
 B => inst.IN1
-A => inst4.IN0
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst6
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst8
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst7|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8
+F[0] <= inst12[0].DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= inst12[1].DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= inst12[2].DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= inst12[3].DB_MAX_OUTPUT_PORT_TYPE
+F[4] <= inst12[4].DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst10[0].IN0
+B[0] => inst7.IN0
+B[1] => inst10[1].IN0
+B[1] => inst6.IN0
+B[2] => inst10[2].IN0
+B[2] => inst5.IN0
+B[3] => inst10[3].IN0
+B[3] => inst4.IN0
+B[4] => inst10[4].IN0
+B[4] => inst2.IN0
+B[4] => inst16.IN0
+B[4] => Igual:inst3.B
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|Igual:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+B => inst1.IN1
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst
+S[0] <= Full-Adder:inst.SOMA
+S[1] <= Full-Adder:inst6.SOMA
+S[2] <= Full-Adder:inst7.SOMA
+S[3] <= Full-Adder:inst8.SOMA
+S[4] <= Full-Adder:inst8.CARRY
+B[0] => Full-Adder:inst.A
+B[1] => Full-Adder:inst6.A
+B[2] => Full-Adder:inst7.A
+B[3] => Full-Adder:inst8.A
+B[4] => ~NO_FANOUT~
+SA => Full-Adder:inst.B
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst7
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst6
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst8
+SOMA <= Half-Adder:inst1.SAIDA
+C => Half-Adder:inst1.A
+A => Half-Adder:inst2.A
+B => Half-Adder:inst2.B
+CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst1
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|ComplementoDe2:inst8|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst2
+SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtratorOK2|MenorQueOK:inst34
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 MA[0] => MaiorQueOK:inst.MA[0]
 MA[0] => ComparadorOK:inst5.B[0]
@@ -337,7 +490,7 @@ MB[4] => MaiorQueOK:inst.MB[4]
 MB[4] => ComparadorOK:inst5.A[4]
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst
 SAIDA <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 MA[0] => ComparadorOK:inst4.A[0]
 MA[0] => MaiorQue:inst2.A
@@ -367,7 +520,7 @@ MB[4] => ComparadorOK:inst4.B[4]
 MB[4] => inst57.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4
 C <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => comparador:inst9.A
 A[1] => comparador:inst10.A
@@ -381,7 +534,7 @@ B[3] => comparador:inst12.B
 B[4] => comparador:inst16.B
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst16
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst16
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -389,7 +542,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst12
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst12
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -397,7 +550,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst11
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst11
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -405,7 +558,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst10
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst10
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -413,7 +566,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst9
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|ComparadorOK:inst4|comparador:inst9
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -421,61 +574,61 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|Igual:inst9
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|Igual:inst9
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|Igual:inst10
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|Igual:inst10
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|Igual:inst13
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|Igual:inst13
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|Igual:inst1
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|Igual:inst1
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst1.IN0
 B => inst1.IN1
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|MaiorQue:inst2
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|MaiorQue:inst2
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|MaiorQue:inst20
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|MaiorQue:inst20
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|MaiorQue:inst11
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|MaiorQue:inst11
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|MaiorQue:inst12
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|MaiorQue:inst12
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|MaiorQueOK:inst|MaiorQue:inst8
+|SomadorSubtratorOK2|MenorQueOK:inst34|MaiorQueOK:inst|MaiorQue:inst8
 S <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 B => inst1.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5
 C <= inst15.DB_MAX_OUTPUT_PORT_TYPE
 A[0] => comparador:inst9.A
 A[1] => comparador:inst10.A
@@ -489,7 +642,7 @@ B[3] => comparador:inst12.B
 B[4] => comparador:inst16.B
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5|comparador:inst16
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5|comparador:inst16
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -497,7 +650,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5|comparador:inst12
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5|comparador:inst12
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -505,7 +658,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5|comparador:inst11
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5|comparador:inst11
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -513,7 +666,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5|comparador:inst10
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5|comparador:inst10
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -521,7 +674,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|MenorQueOK:inst35|ComparadorOK:inst5|comparador:inst9
+|SomadorSubtratorOK2|MenorQueOK:inst34|ComparadorOK:inst5|comparador:inst9
 SAIDA <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 B => inst3.IN0
 B => inst.IN1
@@ -529,55 +682,7 @@ A => inst4.IN0
 A => inst.IN0
 
 
-|ProjetoCompletoOK|DisplayOK:DisplayA
-a1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-D => inst23.IN0
-D => invD.IN0
-D => inst19.IN0
-D => inst17.IN0
-D => inst21.IN0
-D => inst15.IN0
-C => invC.IN0
-C => inst16.IN1
-C => inst17.IN1
-C => inst21.IN1
-C => inst20.IN1
-B => invB.IN0
-B => inst19.IN2
-B => inst21.IN2
-B => inst18.IN2
-B => inst20.IN2
-A => inst23.IN3
-A => invA.IN0
-A => inst19.IN3
-A => inst22.IN3
-b2 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
-c3 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
-d4 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
-e <= inst12.DB_MAX_OUTPUT_PORT_TYPE
-f <= inst13.DB_MAX_OUTPUT_PORT_TYPE
-g <= inst52.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|XorOK:Inst37
-F[0] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-F[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-F[2] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
-F[3] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
-F[4] <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A[0] => inst4.IN0
-A[1] => inst5.IN0
-A[2] => inst6.IN0
-A[3] => inst7.IN0
-A[4] => inst.IN0
-B[0] => inst4.IN1
-B[1] => inst5.IN1
-B[2] => inst6.IN1
-B[3] => inst7.IN1
-B[4] => inst.IN1
-
-
-|ProjetoCompletoOK|SomadorOK:inst30
+|SomadorSubtratorOK2|SomadorOK:inst12
 S[0] <= Full-Adder:inst.SOMA
 S[1] <= Full-Adder:inst6.SOMA
 S[2] <= Full-Adder:inst7.SOMA
@@ -595,7 +700,7 @@ SB[3] => Full-Adder:inst8.B
 SB[4] => ~NO_FANOUT~
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst
 SOMA <= Half-Adder:inst1.SAIDA
 C => Half-Adder:inst1.A
 A => Half-Adder:inst2.A
@@ -603,7 +708,7 @@ B => Half-Adder:inst2.B
 CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst|Half-Adder:inst1
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst|Half-Adder:inst1
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -612,7 +717,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst|Half-Adder:inst2
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst|Half-Adder:inst2
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -621,7 +726,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst8
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst8
 SOMA <= Half-Adder:inst1.SAIDA
 C => Half-Adder:inst1.A
 A => Half-Adder:inst2.A
@@ -629,7 +734,7 @@ B => Half-Adder:inst2.B
 CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst8|Half-Adder:inst1
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst8|Half-Adder:inst1
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -638,7 +743,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst8|Half-Adder:inst2
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst8|Half-Adder:inst2
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -647,7 +752,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst7
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst7
 SOMA <= Half-Adder:inst1.SAIDA
 C => Half-Adder:inst1.A
 A => Half-Adder:inst2.A
@@ -655,7 +760,7 @@ B => Half-Adder:inst2.B
 CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst7|Half-Adder:inst1
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst7|Half-Adder:inst1
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -664,7 +769,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst7|Half-Adder:inst2
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst7|Half-Adder:inst2
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -673,7 +778,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst6
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst6
 SOMA <= Half-Adder:inst1.SAIDA
 C => Half-Adder:inst1.A
 A => Half-Adder:inst2.A
@@ -681,7 +786,7 @@ B => Half-Adder:inst2.B
 CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst6|Half-Adder:inst1
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst6|Half-Adder:inst1
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -690,7 +795,7 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|SomadorOK:inst30|Full-Adder:inst6|Half-Adder:inst2
+|SomadorSubtratorOK2|SomadorOK:inst12|Full-Adder:inst6|Half-Adder:inst2
 SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
 A => inst.IN0
 A => inst2.IN0
@@ -699,287 +804,151 @@ B => inst2.IN1
 CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst
-F[0] <= inst12[0].DB_MAX_OUTPUT_PORT_TYPE
-F[1] <= inst12[1].DB_MAX_OUTPUT_PORT_TYPE
-F[2] <= inst12[2].DB_MAX_OUTPUT_PORT_TYPE
-F[3] <= inst12[3].DB_MAX_OUTPUT_PORT_TYPE
-F[4] <= inst12[4].DB_MAX_OUTPUT_PORT_TYPE
-B[0] => inst10[0].IN0
-B[0] => inst7.IN0
-B[1] => inst10[1].IN0
-B[1] => inst6.IN0
-B[2] => inst10[2].IN0
-B[2] => inst5.IN0
-B[3] => inst10[3].IN0
-B[3] => inst4.IN0
-B[4] => inst10[4].IN0
-B[4] => inst2.IN0
-B[4] => inst16.IN0
-B[4] => Igual:inst3.B
-
-
-|ProjetoCompletoOK|ComplementoDe2:inst|Igual:inst3
-S <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst1.IN0
-B => inst1.IN1
-
-
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst
-S[0] <= Full-Adder:inst.SOMA
-S[1] <= Full-Adder:inst6.SOMA
-S[2] <= Full-Adder:inst7.SOMA
-S[3] <= Full-Adder:inst8.SOMA
-S[4] <= Full-Adder:inst8.CARRY
-B[0] => Full-Adder:inst.A
-B[1] => Full-Adder:inst6.A
-B[2] => Full-Adder:inst7.A
-B[3] => Full-Adder:inst8.A
+|SomadorSubtratorOK2|SubtradorOK:inst9
+S[0] <= Full-Sub:inst.Diff
+S[1] <= Full-Sub:inst8.Diff
+S[2] <= Full-Sub:inst9.Diff
+S[3] <= Full-Sub:inst10.Diff
+S[4] <= Full-Sub:inst10.BorrowOut
+A[0] => Full-Sub:inst.A
+A[1] => Full-Sub:inst8.A
+A[2] => Full-Sub:inst9.A
+A[3] => Full-Sub:inst10.A
+A[4] => ~NO_FANOUT~
+B[0] => Full-Sub:inst.B
+B[1] => Full-Sub:inst8.B
+B[2] => Full-Sub:inst9.B
+B[3] => Full-Sub:inst10.B
 B[4] => ~NO_FANOUT~
-SA => Full-Adder:inst.B
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst8
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst9
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst7|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst9|Full-Sub:inst10
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst6
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst55
+S[0] <= Full-Sub:inst.Diff
+S[1] <= Full-Sub:inst8.Diff
+S[2] <= Full-Sub:inst9.Diff
+S[3] <= Full-Sub:inst10.Diff
+S[4] <= Full-Sub:inst10.BorrowOut
+A[0] => Full-Sub:inst.A
+A[1] => Full-Sub:inst8.A
+A[2] => Full-Sub:inst9.A
+A[3] => Full-Sub:inst10.A
+A[4] => ~NO_FANOUT~
+B[0] => Full-Sub:inst.B
+B[1] => Full-Sub:inst8.B
+B[2] => Full-Sub:inst9.B
+B[3] => Full-Sub:inst10.B
+B[4] => ~NO_FANOUT~
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst55|Full-Sub:inst8
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst6|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst55|Full-Sub:inst
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst8
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst55|Full-Sub:inst9
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ProjetoCompletoOK|ComplementoDe2:inst|SomaUmOK:inst|Full-Adder:inst8|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+|SomadorSubtratorOK2|SubtradorOK:inst55|Full-Sub:inst10
+BorrowOut <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst5.IN0
+A => inst7.IN0
 A => inst.IN0
-A => inst2.IN0
+BorrowIn => inst3.IN1
+BorrowIn => inst2.IN1
+BorrowIn => inst1.IN1
+B => inst4.IN1
+B => inst2.IN0
 B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|AndOK:inst36
-F[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
-F[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-F[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-F[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-F[4] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-A[0] => inst.IN0
-A[1] => inst1.IN0
-A[2] => inst2.IN0
-A[3] => inst3.IN0
-A[4] => inst4.IN0
-B[0] => inst.IN1
-B[1] => inst1.IN1
-B[2] => inst2.IN1
-B[3] => inst3.IN1
-B[4] => inst4.IN1
-
-
-|ProjetoCompletoOK|SomadorOK:inst31
-S[0] <= Full-Adder:inst.SOMA
-S[1] <= Full-Adder:inst6.SOMA
-S[2] <= Full-Adder:inst7.SOMA
-S[3] <= Full-Adder:inst8.SOMA
-S[4] <= Full-Adder:inst8.CARRY
-SA[0] => Full-Adder:inst.A
-SA[1] => Full-Adder:inst6.A
-SA[2] => Full-Adder:inst7.A
-SA[3] => Full-Adder:inst8.A
-SA[4] => ~NO_FANOUT~
-SB[0] => Full-Adder:inst.B
-SB[1] => Full-Adder:inst6.B
-SB[2] => Full-Adder:inst7.B
-SB[3] => Full-Adder:inst8.B
-SB[4] => ~NO_FANOUT~
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst8
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst8|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst8|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst7
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst7|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst7|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst6
-SOMA <= Half-Adder:inst1.SAIDA
-C => Half-Adder:inst1.A
-A => Half-Adder:inst2.A
-B => Half-Adder:inst2.B
-CARRY <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst6|Half-Adder:inst1
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ProjetoCompletoOK|SomadorOK:inst31|Full-Adder:inst6|Half-Adder:inst2
-SAIDA <= inst.DB_MAX_OUTPUT_PORT_TYPE
-A => inst.IN0
-A => inst2.IN0
-B => inst.IN1
-B => inst2.IN1
-CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Diff <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
