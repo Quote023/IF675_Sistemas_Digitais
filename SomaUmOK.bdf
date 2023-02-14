@@ -56,7 +56,7 @@ https://fpgasoftware.intel.com/eula.
 	(output)
 	(rect 1440 344 1616 360)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S[5..0]" (rect 90 0 123 12)(font "Arial" ))
+	(text "S[4..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -493,7 +493,7 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1184 352)
 )
 (connector
-	(text "S[5..0]" (rect 1396 336 1425 353)(font "Intel Clear" ))
+	(text "S[4..0]" (rect 1396 336 1425 353)(font "Intel Clear" ))
 	(pt 1184 352)
 	(pt 1440 352)
 	(bus)

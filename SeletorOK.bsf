@@ -27,8 +27,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 32)
 		(input)
-		(text "S2" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
-		(text "S2" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
+		(text "S0" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "S0" (rect 21 27 37 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
@@ -41,8 +41,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 64)
 		(input)
-		(text "S0" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
-		(text "S0" (rect 21 59 37 78)(font "Intel Clear" (font_size 8)))
+		(text "S2" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "S2" (rect 21 59 37 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port

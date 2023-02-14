@@ -1,0 +1,79 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 160 176)
+	(text "DisplayEsqSaida" (rect 5 0 105 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[4..0]" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "A[4..0]" (rect 21 27 59 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "OutEsqA" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqA" (rect 73 27 123 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32))
+	)
+	(port
+		(pt 144 48)
+		(output)
+		(text "OutEsqB" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqB" (rect 73 43 123 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 48)(pt 128 48))
+	)
+	(port
+		(pt 144 64)
+		(output)
+		(text "OutEsqC" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqC" (rect 73 59 123 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 64)(pt 128 64))
+	)
+	(port
+		(pt 144 80)
+		(output)
+		(text "OutEsqD" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqD" (rect 72 75 123 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 80)(pt 128 80))
+	)
+	(port
+		(pt 144 96)
+		(output)
+		(text "OutEsqE" (rect 0 0 49 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqE" (rect 74 91 123 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 96)(pt 128 96))
+	)
+	(port
+		(pt 144 112)
+		(output)
+		(text "OutEsqG" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "OutEsqG" (rect 72 107 123 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 112)(pt 128 112))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 144))
+	)
+)
