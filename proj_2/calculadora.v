@@ -1,7 +1,7 @@
 module calculadora(
 	input ativo,
-	input tecla_atual,
 	input clk,
+	input [4:0] tecla_atual,
 	output reg[6:0] A,
 	output reg[6:0] B,
 	output reg[7:0] resultado);
@@ -25,7 +25,11 @@ module calculadora(
 					else B <= tecla_atual;
 				 end
 			endcase
-		end
+		end 
+		//else begin 
+		//	A <= ativo;
+		//	B <= 10;
+		//end
 	end
 
 	  always @ (posedge clk) begin

@@ -3,7 +3,7 @@
 module contador(
   input ativo,
   input clk,
-  input tecla_atual,
+  input [4:0] tecla_atual,
   output wire [3:0] decs,
   output wire [9:0] segs
 );

@@ -1,16 +1,16 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off proj_2 -c proj_2 --vector_source="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/Waveform.vwf" --testbench_file="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off proj_2 -c proj_2 --vector_source="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/Waveform.vwf" --testbench_file="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/simulation/qsim/Waveform.vwf.vt"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/simulation/qsim/" proj_2 -c proj_2</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/santi/OneDrive/Documents/alex/IF675_Sistemas_Digitais/proj_2/simulation/qsim/" proj_2 -c proj_2</tnetlist_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off proj_2 -c proj_2 --vector_source="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/Waveform.vwf" --testbench_file="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
+<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off proj_2 -c proj_2 --vector_source="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/Waveform.vwf" --testbench_file="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/simulation/qsim/Waveform.vwf.vt"</ttestbench_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/simulation/qsim/" proj_2 -c proj_2</fnetlist_cmd>
+<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/jalex/OneDrive/Documents/xandinho/IF675_Sistemas_Digitais/proj_2/simulation/qsim/" proj_2 -c proj_2</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vlog -work work proj_2.vo
 vlog -work work Waveform.vwf.vt
-vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.contador_vlg_vec_tst
+vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.cronometro_calculadora_vlg_vec_tst
 vcd file -direction proj_2.msim.vcd
-vcd add -internal contador_vlg_vec_tst/*
-vcd add -internal contador_vlg_vec_tst/i1/*
+vcd add -internal cronometro_calculadora_vlg_vec_tst/*
+vcd add -internal cronometro_calculadora_vlg_vec_tst/i1/*
 proc simTimestamp {} {
     echo "Simulation time: $::now ps"
     if { [string equal running [runStatus]] } {
@@ -20,17 +20,15 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
-
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
 vlog -work work proj_2.vo
 vlog -work work Waveform.vwf.vt
-vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.contador_vlg_vec_tst
+vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.cronometro_calculadora_vlg_vec_tst
 vcd file -direction proj_2.msim.vcd
-vcd add -internal contador_vlg_vec_tst/*
-vcd add -internal contador_vlg_vec_tst/i1/*
+vcd add -internal cronometro_calculadora_vlg_vec_tst/*
+vcd add -internal cronometro_calculadora_vlg_vec_tst/i1/*
 proc simTimestamp {} {
     echo "Simulation time: $::now ps"
     if { [string equal running [runStatus]] } {
@@ -40,8 +38,6 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
-
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>
 </simulation_settings>*/
@@ -558,6 +554,16 @@ SIGNAL("segs[0]")
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
 	PARENT = "segs";
+}
+
+SIGNAL("modo_atual")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
 }
 
 TRANSITION_LIST("clk")
@@ -3415,6 +3421,15 @@ TRANSITION_LIST("segs[0]")
 	}
 }
 
+TRANSITION_LIST("modo_atual")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1000.0;
+	}
+}
+
 DISPLAY_LINE
 {
 	CHANNEL = "clk";
@@ -3892,6 +3907,15 @@ DISPLAY_LINE
 	TREE_INDEX = 47;
 	TREE_LEVEL = 1;
 	PARENT = 37;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "modo_atual";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 48;
+	TREE_LEVEL = 0;
 }
 
 TIME_BAR
