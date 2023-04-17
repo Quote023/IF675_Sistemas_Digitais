@@ -7,7 +7,7 @@ module contador_intern (
 );
 
 always @ (posedge clk) begin  
-  if (! reset)  
+  if (reset)  
     decs <= 0;  
   else if (pause)
     decs <= decs;

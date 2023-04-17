@@ -1,11 +1,9 @@
-`include "contador_intern.v"
-`include "contar_10.v"
 
 // clk = 1000mhz
 module contador(
   input clk,   
-  output reg[3:0] decs,
-  output reg[9:0] segs
+  output wire decs,
+  output wire segs
 );
 
   wire clkDiv10;

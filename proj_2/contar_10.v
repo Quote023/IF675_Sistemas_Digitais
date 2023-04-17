@@ -1,4 +1,4 @@
-module contar_10(input clk, output wire out)
+module contar_10(input clk, output reg out);
   reg [3:0] cont = 0;
   always @ (posedge clk) begin
     if(cont >= 10) begin
