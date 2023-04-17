@@ -6,6 +6,7 @@ module contar_10(input clk, output reg out);
       cont <= 0;
     end
     else
+		out <= 0;
       cont <= cont + 1;
   end
 endmodule

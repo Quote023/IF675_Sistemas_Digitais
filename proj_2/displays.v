@@ -1,2 +1,2 @@
-module displays(modo,decs,segs,resultado);
+module displays(input modo,input decs,input segs,input resultado);
 endmodule

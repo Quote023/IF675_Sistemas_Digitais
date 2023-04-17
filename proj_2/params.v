@@ -1,4 +1,4 @@
-module TECLAS
+module TECLAS;
 	parameter //5 bits
 		T_0=0,
 		T_1=1,
@@ -15,10 +15,10 @@ module TECLAS
 		T_A=12,
 		T_B=13,
 		T_C=14,
-		T_D=15;
-    T_NULL=16;
+		T_D=15,
+		T_NULL=16;
 endmodule
 
-module MODOS //1 bit
+module MODOS; //1 bit
 	parameter CRON = 0, CALC = 1;
-endmodule;
+endmodule

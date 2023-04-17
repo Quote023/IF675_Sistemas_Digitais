@@ -1,10 +1,11 @@
-module cronometro_calculadora(clk,key);
+module cronometro_calculadora(clk,key,decs,segs,X,Y,resultado);
 	input clk; //clock 1000hz
-	input key; //input do keypad
+	input [4:0] key; //input do keypad
 
-	wire decs, segs; //decimos de segundos e segundos do cronometro;
-	wire X,Y; //valores atuais da calcuadora
-  wire resultado; //resultado calculadora
+	output wire [3:0] decs; //decimos de segundos do cronometro
+	output wire [9:0] segs; // segundos do cronometro;
+	output wire [6:0] X,Y; //valores atuais da calcuadora
+	output wire [7:0] resultado; //resultado calculadora
 
 	reg modo_atual = MODOS.CRON;
 	reg[4:0] tecla_atual = TECLAS.T_NULL;
@@ -23,7 +24,7 @@ module cronometro_calculadora(clk,key);
 	end
 
   contador(
-    .ativo(tecla_atual,modo_atual == MODOS.CRON),
+    .ativo(modo_atual == MODOS.CRON),
     .tecla_atual(tecla_atual),
     .clk(clk),
     .decs(decs),
