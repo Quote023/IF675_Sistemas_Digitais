@@ -1,7 +1,7 @@
 module contador_intern (
   input clk,
   input reset,
-  input pause,
+  input pausa,
   output reg[3:0] decs,
   output reg[9:0] segs
 );
@@ -9,7 +9,7 @@ module contador_intern (
 always @ (posedge clk) begin  
   if (reset)  
     decs <= 0;  
-  else if (pause)
+  else if (pausa)
     decs <= decs;
   else begin
     decs <= decs + 1;
