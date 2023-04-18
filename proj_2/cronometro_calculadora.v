@@ -38,5 +38,5 @@ module cronometro_calculadora(clk,key,decs,segs,X,Y,resultado,modo_atual);
     .B(Y),
     .resultado(resultado));
 
-  displays(modo_atual,decs,segs,resultado);
+  displays(modo_atual,decs,segs,X,Y,resultado);
 endmodule
