@@ -10,12 +10,12 @@ module TECLAS;
 		T_7=7,
 		T_8=8,
 		T_9=9,
-		T_HASH=10,
-		T_ASTE=11,
-		T_A=12,
-		T_B=13,
-		T_C=14,
-		T_D=15,
+		T_HASH=15,
+		T_ASTE=14,
+		T_A=10,
+		T_B=11,
+		T_C=12,
+		T_D=13,
 		T_NULL=16;
 endmodule
 

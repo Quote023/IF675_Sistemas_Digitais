@@ -4,8 +4,13 @@ module calculadora(
 	input [4:0] tecla_atual,
 	output reg[6:0] A,
 	output reg[6:0] B,
-	output reg[7:0] resultado);
-
+	output reg[7:0] resultado,
+	output sinal);
+	
+	initial begin
+	sinal=0;
+	end
+	
 	parameter NUM_A = 0, NUM_B = 1;
 	parameter OP_SUM = 0, OP_SUB = 1, OP_MUL = 2;
 
@@ -35,7 +40,11 @@ module calculadora(
 	  always @ (posedge clk) begin
 		 case (operacao) 
 			OP_SUM: resultado <= (A + B);
-			OP_SUB: resultado <= (A - B);
+			OP_SUB: if(B>A)begin
+					  resultado <= (B - A);
+					  sinal=1;
+					  end else
+					  resultado <= (A - B);
 			OP_MUL: resultado <= (A * B);
 		 endcase
 	  end
